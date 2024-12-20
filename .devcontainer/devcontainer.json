@@ -1,0 +1,22 @@
+{
+    "name": "Web Development Environment",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ritwickdey.LiveServer",
+                "ms-vscode.live-server",
+                "formulahendry.auto-close-tag",
+                "formulahendry.auto-rename-tag",
+                "pranaygp.vscode-css-peek",
+                "streetsidesoftware.code-spell-checker",
+                "esbenp.prettier-vscode",
+                "oderwat.indent-rainbow",
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ]
+        }
+    },
+    "forwardPorts": [5500],
+    "postCreateCommand": "echo 'Development environment setup complete!'",
+    "remoteUser": "codespace"
+}
